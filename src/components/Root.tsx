@@ -15,8 +15,8 @@ function App() {
         <>
             <GlobalStyle />   
             <SEO
-                title='Carlos Essteves '
-                description='Projeto de CARLOS ESTEVES'
+                title='Carlos Esteves'
+                description='CARLOS ESTEVES Desenvolvedor'
                 name='Carlos Esteves.'
                 type='article' 
             />         
