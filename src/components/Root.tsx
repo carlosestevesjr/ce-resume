@@ -6,11 +6,20 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { GlobalStyle } from "../styles/globals"
 
 import '../components/Icons'
+import SEO from './SEO'
+
+
 
 function App() {
     return (
         <>
-            <GlobalStyle />            
+            <GlobalStyle />   
+            <SEO
+                title='Carlos Essteves '
+                description='Projeto de CARLOS ESTEVES'
+                name='Carlos Esteves.'
+                type='article' 
+            />         
             <Header />
             <main>
                 <Home />

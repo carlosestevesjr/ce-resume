@@ -17,6 +17,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "@types/react-fontawesome": "^1.6.5",
+    "@types/react-helmet": "^6.1.5",
     "@types/react-router-dom": "^5.3.3",
     "@types/react-slick": "^0.23.10",
     "@types/smoothscroll-polyfill": "^0.3.1",
