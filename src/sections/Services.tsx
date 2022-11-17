@@ -7,6 +7,21 @@ import ServiceConfig from '../data/services.json'
 const services = ServiceConfig.services
 
 export class Services extends React.Component {
+
+    downloadEmployeeData = (url: RequestInfo | URL) => {
+		fetch(url)
+			.then(response => {
+				response.blob().then(blob => {
+					let url = window.URL.createObjectURL(blob);
+					let a = document.createElement('a');
+					a.href = url;
+					a.download = 'meuhype.apk';
+					a.click();
+				});
+				//window.location.href = response.url;
+		});
+	}
+
     render() {
         return (
             <Section id="services" title="Projetos">
@@ -18,8 +33,13 @@ export class Services extends React.Component {
                                     <div className="mb-0" dangerouslySetInnerHTML={{ __html: s.content }} />
                                     <div className="mt-3 mb-3">
                                         {/* <Button variant="kd">Download CV</Button> */}
-                                        <a href={s.link_project} target="_blank" className="btn btn-kd" rel="noopener noreferrer">Ver</a>
-
+                                        {
+                                            (s.tipo_link === "download") ?
+                                                <a href={s.link_project} target="_blank" className="btn btn-kd" rel="noopener noreferrer" onClick={() => this.downloadEmployeeData(s.link_project)} >Download</a>
+                                            :
+                                                <a href={s.link_project} target="_blank" className="btn btn-kd" rel="noopener noreferrer">Ver</a>
+                                        }
+                                        
                                     </div>
                                 </ServiceBox>
                             
