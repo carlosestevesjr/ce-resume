@@ -1,4 +1,3 @@
-import React from 'react'
 import { Header, Home, Footer, About, Education, Experience, Services} from '../sections'
 import { Row, Col, Container } from 'react-bootstrap'
 import ScrollTopArrow from '../components/Scroller'
@@ -27,9 +26,6 @@ function App() {
                     </Row>
                 </Container>
                 <Services /> 
-                {/*<Review />
-                <Tools />
-                <Contact /> */}
             </main>
             <Footer />
             <ScrollTopArrow />

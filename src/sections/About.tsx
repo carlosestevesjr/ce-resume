@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Row, Col } from 'react-bootstrap'
-import { Skill, Counter, Section } from '../components'
-import { IconPrefix, IconName } from '@fortawesome/fontawesome-svg-core'
+import { Skill, Section } from '../components'
 import about from '../data/about.json'
 import PerfilImage from "../assets/images/perfil.png"
 
