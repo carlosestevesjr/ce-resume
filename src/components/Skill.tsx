@@ -1,6 +1,6 @@
 import React from 'react'
 import VisibilitySensor from 'react-visibility-sensor'
-import { Row, Col } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 
 interface Props {
     title: string
