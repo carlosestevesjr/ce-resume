@@ -4,37 +4,23 @@
         {
             "title": "Meu Hype",
             "backgroundColor": "rgb(61, 61, 78)",
-            "content": "Projeto em desenvolvimento com Next.JS, React, Styled Components, Bootstrap, Figma para composição do Front End.",
+            "content": "Projeto em desenvolvimento sobre cinema com Next.JS, React, Styled Components, Bootstrap, Figma para composição do Front End.",
             "delay": 0,
             "link_project":"https://meuhype.vercel.app/"
         },
         {
-            "title": "Meu Hype Aplicativo APK",
+            "title": "Meu Hype APK",
             "backgroundColor": "rgb(61, 61, 78)",
-            "content": "Projeto em desenvolvimento com React Native e Redux.",
+            "content": "Projeto em desenvolvimento sobre cinema com React Native, React Hooks, Redux.",
             "delay": 0,
             "link_project":"http://192.168.15.6:9000/pokedex"
         },
         {
-            "title": "Meu Hype Aplicativo APK",
+            "title": "Pokedex",
             "backgroundColor": "rgb(61, 61, 78)",
-            "content": "Projeto em desenvolvimento com React Native e Redux.",
+            "content": "Projeto em desenvolvimento com React, Context Api, Typescript, Styled Components, Axios.",
             "delay": 0,
-            "link_project":"http://192.168.15.6:9000/pokedex"
-        },
-        {
-            "title": "Meu Hype Aplicativo APK",
-            "backgroundColor": "rgb(61, 61, 78)",
-            "content": "Projeto em desenvolvimento com React Native e Redux.",
-            "delay": 0,
-            "link_project":"http://192.168.15.6:9000/pokedex"
-        },
-        {
-            "title": "Meu Hype Aplicativo APK",
-            "backgroundColor": "rgb(61, 61, 78)",
-            "content": "Projeto em desenvolvimento com React Native e Redux.",
-            "delay": 0,
-            "link_project":"http://192.168.15.6:9000/pokedex"
+            "link_project":"https://ce-pokedex.netlify.app"
         }
     ]
 }

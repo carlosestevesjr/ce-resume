@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import code from "../assets/images/service-2.svg"
+
 interface Props {
   title: string
   backgroundColor: string
@@ -8,6 +9,7 @@ interface Props {
 }
 
 export class ServiceBox extends React.Component<Props> {
+    
   render() {
     const props = this.props
 
