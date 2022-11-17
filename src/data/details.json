@@ -7,11 +7,11 @@
     "React",
     "React Hooks",
     "React Native",
-    "Microfrontends",
     "Next.JS",
     "Context API",
     "Redux",
     "Styled Components",
+    "Microfrontends",
     "Javascript",
     "HTML 5",
     "CSS3",
@@ -20,11 +20,15 @@
   ],
   "socialNetworks": [
     {
-      "link": "https://github.com/kien-dang/react-resume-template",
+        "link": "https://api.whatsapp.com/send?phone=5541987067490&text=Oiii!%20!!%20Estou%20entrando%20em%20contato%20com%20você%20através%20do%20seu%20site",
+        "iconName": "faWhatsapp"
+    },
+    {
+      "link": "https://github.com/carlosestevesjr",
       "iconName": "faGithub"
     },
     {
-      "link": "https://www.linkedin.com/in/trung-kien-dang",
+      "link": "https://www.linkedin.com/in/carlos-esteves-4b4a1859",
       "iconName": "faLinkedin"
     }
   ]

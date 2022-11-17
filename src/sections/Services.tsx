@@ -14,7 +14,7 @@ export class Services extends React.Component {
                     {services.map((s, i) => (
                         <Col md={4} key={i}>
                            
-                                <ServiceBox title={s.title} image={require("../assets/images/service-2.svg")} backgroundColor={s.backgroundColor}>
+                                <ServiceBox title={s.title} backgroundColor={s.backgroundColor}>
                                     <div className="mb-0" dangerouslySetInnerHTML={{ __html: s.content }} />
                                     <div className="mt-3 mb-3">
                                         {/* <Button variant="kd">Download CV</Button> */}
